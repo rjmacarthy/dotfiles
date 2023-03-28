@@ -33,7 +33,7 @@ filetype plugin indent on
 
 " Configure NERDTree
 let g:NERDTreeChDirMode = 2
-let g:NERDTreeQuitOnOpen = 1
+let g:NERDTreeQuitOnOpen = 0
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeWinSize = 25
 let g:NERDTreeHighlightCursorline = 1
