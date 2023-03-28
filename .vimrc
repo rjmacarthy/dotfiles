@@ -4,6 +4,10 @@ set hidden                    " allow switching between buffers without saving
 set mouse=a                   " enable mouse support
 set number                    " display line numbers
 filetype off                  " required
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
 map <C-s> :w<CR>
 
 " Set the runtime path to include Vundle and initialize
